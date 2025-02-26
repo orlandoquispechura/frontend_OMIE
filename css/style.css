@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: skyblue;
+  height: 100px;
+  text-align: center;
+}
+h2{
+    padding-top: 30px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  padding: 15px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th{
+    background-color: rgb(87, 216, 216);
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
